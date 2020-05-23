@@ -3,7 +3,7 @@ document.getElementById("search-button").onclick = () => {
     console.log(searchParameter)
     try {
         postData(
-            url = 'http://121.6.1.241:3015/posts',
+            url = 'https://121.6.1.241:3015/posts',
             data = {
                 "searchParameter": searchParameter,
                 "keyword": ""
