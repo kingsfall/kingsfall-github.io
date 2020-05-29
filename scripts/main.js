@@ -1,6 +1,6 @@
-// window.onload = function () {
-//     document.getElementById("filter-box").style.display = 'none';
-// };
+window.onload = function () {
+    document.getElementById("filter-box").style.display = 'none';
+};
 
 document.getElementById("search-button").onclick = () => {
     let searchParameter = document.getElementById("search-box").value;
